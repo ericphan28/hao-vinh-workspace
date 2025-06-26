@@ -7,9 +7,9 @@ Workspace này được thiết kế để quản lý projects của 2 sinh viê
 
 ```
 haovinh/
-├── student-projects/          # Projects của từng sinh viên
-│   ├── student1/             # Thư mục projects của sinh viên 1
-│   └── student2/             # Thư mục projects của sinh viên 2
+├── haovinh-projects/          # Projects của từng sinh viên
+│   ├── thienhao/             # Thư mục projects của Thiên Hào
+│   └── thienvinh/            # Thư mục projects của Thiên Vinh
 ├── shared-resources/         # Tài nguyên dùng chung
 ├── templates/               # Templates cho projects mới
 ├── documentation/           # Tài liệu hướng dẫn
@@ -32,8 +32,8 @@ haovinh/
 ## Workflow Git
 - `main`: Code ổn định, đã được review
 - `development`: Integration và testing
-- `student1-*`: Branches của sinh viên 1
-- `student2-*`: Branches của sinh viên 2
+- `thienhao-*`: Branches của Thiên Hào
+- `thienvinh-*`: Branches của Thiên Vinh
 
 ## Tools & Extensions Khuyến Nghị
 - Git Graph

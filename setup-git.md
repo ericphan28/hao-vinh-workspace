@@ -81,16 +81,16 @@ git push -u origin main
 ## 4. Create Student Branches
 
 ```bash
-# Create and switch to student1 branch
-git checkout -b student1-main
-git push -u origin student1-main
+# Create and switch to thienhao branch
+git checkout -b thienhao-main
+git push -u origin thienhao-main
 
 # Switch back to main
 git checkout main
 
-# Create and switch to student2 branch  
-git checkout -b student2-main
-git push -u origin student2-main
+# Create and switch to thienvinh branch  
+git checkout -b thienvinh-main
+git push -u origin thienvinh-main
 
 # Switch back to main
 git checkout main

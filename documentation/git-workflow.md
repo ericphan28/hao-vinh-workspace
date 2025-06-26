@@ -10,11 +10,11 @@ cd haovinh
 
 ### Tạo Branch Cá Nhân
 ```bash
-# Sinh viên 1
-git checkout -b student1-main
+# Thiên Hào
+git checkout -b thienhao-main
 
-# Sinh viên 2  
-git checkout -b student2-main
+# Thiên Vinh  
+git checkout -b thienvinh-main
 ```
 
 ## 2. Workflow Hàng Ngày
@@ -22,12 +22,12 @@ git checkout -b student2-main
 ### Bắt Đầu Project Mới
 1. Copy template phù hợp:
 ```bash
-cp -r templates/python-basic student-projects/student1/project-name
+cp -r templates/python-basic haovinh-projects/thienhao/project-name
 ```
 
 2. Tạo branch cho project:
 ```bash
-git checkout -b student1-project-name
+git checkout -b thienhao-project-name
 ```
 
 ### Phát Triển Code
@@ -39,7 +39,7 @@ git commit -m "feat: add basic calculator functions"
 
 2. **Push lên remote**:
 ```bash
-git push origin student1-project-name
+git push origin thienhao-project-name
 ```
 
 ### Code Review Process
